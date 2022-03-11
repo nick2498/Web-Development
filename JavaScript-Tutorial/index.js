@@ -25,3 +25,15 @@ console.log(myString.lastIndexOf("good"));
 console.log(myString.slice(1, 4));
 console.log(myString.replace("good", "very"));
 */
+
+// Dates in JS
+/*
+let myDate = new Date();
+console.log(myDate.getTime());
+console.log(myDate.getFullYear());
+console.log(myDate.getDate());
+console.log(myDate.getMonth());
+console.log(myDate.getDay());
+console.log(myDate.getHours());
+console.log(myDate.getMinutes());
+*/
