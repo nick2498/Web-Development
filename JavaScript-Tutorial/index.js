@@ -37,3 +37,36 @@ console.log(myDate.getDay());
 console.log(myDate.getHours());
 console.log(myDate.getMinutes());
 */
+
+// DOM Manipulation in JS
+/*
+let elem = document.getElementById("click");
+console.log(elem);
+
+let elemClass = document.getElementsByClassName("container");
+console.log(elemClass);
+elemClass[1].style.background = "yellow";
+elemClass[0].classList.add("bg-primary");
+elemClass[0].classList.add("text-success");
+console.log(elem.innerHTML);
+console.log(elem.innerText);
+console.log(elemClass[0].innerHTML);
+console.log(elemClass[0].innerText);
+
+let tn = document.getElementsByTagName("div");
+console.log(tn);
+
+let createdElement = document.createElement("p");
+createdElement.innerText = "This is a inner para";
+tn[1].appendChild(createdElement);
+
+let createdElement2 = document.createElement("b");
+createdElement2.innerText = "This is a inner bold";
+tn[1].replaceChild(createdElement2, createdElement);
+
+let qs = document.querySelector(".container");
+console.log(qs);
+
+let qsa = document.querySelectorAll(".container");
+console.log(qsa);
+*/

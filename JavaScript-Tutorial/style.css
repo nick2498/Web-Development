@@ -1,0 +1,8 @@
+.bg-primary {
+  background-color: blueviolet;
+}
+
+.text-success {
+  color: rgb(255, 255, 255);
+  background-color: rgb(148, 148, 148);
+}
