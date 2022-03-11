@@ -15,3 +15,13 @@ console.log(myArr);
 console.log(myArr.toString());
 console.log(myArr.sort());
 */
+
+// String Methods in JS
+/*
+let myString = "Today is a good good day";
+console.log(myString.length);
+console.log(myString.indexOf("day"));
+console.log(myString.lastIndexOf("good"));
+console.log(myString.slice(1, 4));
+console.log(myString.replace("good", "very"));
+*/
